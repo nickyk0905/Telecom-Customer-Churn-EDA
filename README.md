@@ -22,6 +22,8 @@ telecom-churn-analysis/
 ├── notebooks/
 │   └── Teleco_Customer_Churn_EDA.ipynb
 ├── outputs/              # exported charts (optional)
+├── docs/
+│   └── Telecom_Customer_Churn_Analysis_Report.docx
 ├── requirements.txt
 ├── README.md
 └── .gitignore
@@ -60,6 +62,10 @@ telecom-churn-analysis/
 - Prioritize senior citizens in retention programs
 - Encourage a shift away from Electronic Check toward automatic payment methods
 
+## Project Report
+
+A full, formatted write-up of this analysis — business problem, methodology, all charts, findings, and recommendations — is available in [`docs/Telecom_Customer_Churn_Analysis_Report.docx`](docs/Telecom_Customer_Churn_Analysis_Report.docx).
+
 ## Tools Used
 
 - Python
@@ -73,7 +79,7 @@ telecom-churn-analysis/
 git clone <your-repo-url>
 cd telecom-churn-analysis
 pip install -r requirements.txt
-jupyter notebook notebooks/Teleco_Customer_Churn_EDA.ipynb
+jupyter notebook notebooks/Telecom_Customer_Churn_EDA.ipynb
 ```
 
 ## Author
